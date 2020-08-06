@@ -3,17 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsAPI.Web", "AlgorithmsAPI.Web\AlgorithmsAPI.Web.csproj", "{82452418-93C9-4774-8610-66610F88044C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmsAPI.Web", "AlgorithmsAPI.Web\AlgorithmsAPI.Web.csproj", "{82452418-93C9-4774-8610-66610F88044C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsAPI.Services", "AlgotihmsAPI.Services\AlgorithmsAPI.Services.csproj", "{2908BBC1-D80C-4253-8319-4825E7263FCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmsAPI.Services", "AlgorithmsAPI.Services\AlgorithmsAPI.Services.csproj", "{2908BBC1-D80C-4253-8319-4825E7263FCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsAPI.Tests", "AlgorithmsAPI.Tests\AlgorithmsAPI.Tests.csproj", "{8DFC4E7F-92A4-4DDD-B6EA-618974C80524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmsAPI.Tests", "AlgorithmsAPI.Tests\AlgorithmsAPI.Tests.csproj", "{8DFC4E7F-92A4-4DDD-B6EA-618974C80524}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F1876576-D985-4C5E-8861-016584CF49E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{191201D7-A5C5-4612-9CCB-4D609786BA2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsAPI.Core", "AlgorithmsAPI.Core\AlgorithmsAPI.Core.csproj", "{E4E139F0-AF63-42AF-81B8-59E6D0B5C089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmsAPI.Core", "AlgorithmsAPI.Core\AlgorithmsAPI.Core.csproj", "{E4E139F0-AF63-42AF-81B8-59E6D0B5C089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB5B19A2-11C0-440F-844C-5D1FC81F0754}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +86,7 @@ Global
 		{82452418-93C9-4774-8610-66610F88044C} = {191201D7-A5C5-4612-9CCB-4D609786BA2E}
 		{2908BBC1-D80C-4253-8319-4825E7263FCE} = {191201D7-A5C5-4612-9CCB-4D609786BA2E}
 		{8DFC4E7F-92A4-4DDD-B6EA-618974C80524} = {F1876576-D985-4C5E-8861-016584CF49E4}
+		{E4E139F0-AF63-42AF-81B8-59E6D0B5C089} = {191201D7-A5C5-4612-9CCB-4D609786BA2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4D039E5-67FB-483F-B3F4-2BA676F45CCF}

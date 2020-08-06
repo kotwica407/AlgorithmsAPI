@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AlgotihmsAPI.Services\AlgorithmsAPI.Services.csproj" />
+    <ProjectReference Include="..\AlgorithmsAPI.Services\AlgorithmsAPI.Services.csproj" />
   </ItemGroup>
 
 </Project>
