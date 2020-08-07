@@ -26,8 +26,8 @@ namespace AlgorithmsAPI.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-                app.UseDeveloperExceptionPage();
+            app.When(env.IsDevelopment(), app.UseDeveloperExceptionPage)
+               .When(!env.IsDevelopment(), app.UseHsts);
 
             //if swagger is alive
             app.ConfigureSwagger();
