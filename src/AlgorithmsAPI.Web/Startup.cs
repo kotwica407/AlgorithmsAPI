@@ -29,6 +29,9 @@ namespace AlgorithmsAPI.Web
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();
 
+            //if swagger is alive
+            app.ConfigureSwagger();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
